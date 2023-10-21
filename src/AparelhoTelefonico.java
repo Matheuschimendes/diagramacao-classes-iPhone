@@ -7,6 +7,7 @@ public class AparelhoTelefonico implements ReprodutorMusical, NavegadorInternet,
         throw new UnsupportedOperationException("Unimplemented method 'makeCall'");
     }
 
+    
     @Override
     public void receiveCall(String callerName) {
         // TODO Auto-generated method stub
